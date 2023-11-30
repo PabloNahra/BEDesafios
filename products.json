@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Amiguris",
+    "description": "Muñecos de crochet",
+    "price": 10,
+    "thumbnail": "https://www.littlebee.cl/ballena-l",
+    "code": "001",
+    "stock": 1
+  },
+  {
+    "id": 2,
+    "title": "Amiguris UPDATED 2",
+    "description": "Muñecos de crochet 2",
+    "price": 20,
+    "thumbnail": "https://www.littlebee.cl/ballena-l",
+    "code": "002",
+    "stock": 2
+  },
+  {
+    "id": 3,
+    "title": "Amiguris UPDATED 3",
+    "description": "Muñecos de crochet 3",
+    "price": 30,
+    "thumbnail": "https://www.littlebee.cl/ballena-l",
+    "code": "003",
+    "stock": 3
+  },
+  {
+    "id": 4,
+    "title": "Alfombra 4",
+    "description": "Alfombras para tu casa 4",
+    "price": 40,
+    "thumbnail": "https://www.littlebee.cl/ballena-l",
+    "code": "004",
+    "stock": 4
+  }
+]
