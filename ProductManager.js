@@ -4,9 +4,11 @@ https://docs.google.com/presentation/d/1CywBnZUj-NCXZMPz7qXi01rxnfOs-pT-4GugSFOQ
 Consigna
 Realizar una clase “ProductManager” que gestione un conjunto de productos aplicando la persistencia en archivos
 */
-const fs = require('fs')
+//const fs = require('fs')
+import fs from 'fs'
 
-class ProductManager{
+
+export class ProdManager{
     constructor(path){
         this.path = path;
     }
@@ -85,7 +87,7 @@ class ProductManager{
 
 
 // Testeando
-const test = async () => {
+export const test = async () => {
     const productManager = new ProductManager('./products.json')
 
     await productManager.addProduct({
@@ -131,5 +133,5 @@ const test = async () => {
 }
 
 
-test();
+//test();
 
